@@ -1,0 +1,7 @@
+/out
+/node_modules
+/.shadow-cljs
+/shadow-cljs.edn
+/.cpcache
+package-lock.json
+.DS_Store
