@@ -9,7 +9,7 @@
  ;; manifests are values, and storage is a returned effect descriptor the HOST
  ;; interprets. If a change here needs a second dependency, that is a signal
  ;; the boundary is being crossed, not a missing coordinate.
- :deps {io.github.kotoba-lang/io-ipld {:git/sha "f99bf27d58a75bb8cf6ddfd2d57a0aaac9c824ac"}}
+ :deps {io.github.kotoba-lang/io-ipld {:git/sha "48ba40490cf082a1473986ac757b8e2b214a3d1b"}}
  :aliases
  {:test {:extra-paths ["test"]
          :extra-deps {io.github.cognitect-labs/test-runner
