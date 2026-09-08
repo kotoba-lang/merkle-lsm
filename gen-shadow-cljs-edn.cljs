@@ -5,7 +5,7 @@
 ;; a hand-duplicated, driftable path list.
 ;;
 ;; nbb, not bb (ADR-2607173000: bb is retired as a script host here).
-(require '[clojure.string :as str])
+(require '[kotoba.lang.text :as str])
 (def fs (js/require "node:fs"))
 (def cp (js/require "node:child_process"))
 (defn sh [& args]
