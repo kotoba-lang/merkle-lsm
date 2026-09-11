@@ -115,14 +115,14 @@ crossed rather than a missing coordinate.
 `.cljc` alone is a *claim*; CI is the check. Both jobs run on every push:
 
 ```bash
-clojure -M:test     # JVM
-clojure -M:lint     # clj-kondo, --fail-level error
+kbb -M:test     # JVM
+kbb -M:lint     # clj-kondo, --fail-level error
 npm run test:cljs   # real ClojureScript: shadow-cljs :node-test on Node
 ```
 
 44 tests / 165 assertions, green on both runtimes.
 
-The ClojureScript job resolves its `:source-paths` from `clojure -Spath`, so it
+The ClojureScript job resolves its `:source-paths` from `kbb -Spath`, so it
 tests the **exact** git SHAs `deps.edn` pins rather than a hand-maintained,
 driftable path list.
 
