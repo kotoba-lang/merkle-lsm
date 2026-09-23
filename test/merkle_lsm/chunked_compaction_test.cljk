@@ -13,7 +13,7 @@
     resumability stopping and resuming from :next-after gives the same total
     boundedness  work for one chunk does not grow with total run size — the
                  whole point"
-  (:require [clojure.test :refer [deftest is testing]]
+  (:require [kotoba.test :refer [deftest is testing]]
             [ipld.core :as ipld]
             [merkle-lsm.core :as lsm]))
 

@@ -1,5 +1,5 @@
 (ns merkle-lsm.compaction-test
-  (:require [clojure.test :refer [deftest is testing]]
+  (:require [kotoba.test :refer [deftest is testing]]
             [merkle-lsm.core :as lsm]
             [merkle-lsm.compaction :as compaction]))
 
