@@ -1,5 +1,5 @@
 (ns merkle-lsm.core-test
-  (:require [clojure.test :refer [deftest is testing]]
+  (:require [kotoba.test :refer [deftest is testing]]
             [ipld.core :as ipld]
             [merkle-lsm.core :as lsm]))
 
